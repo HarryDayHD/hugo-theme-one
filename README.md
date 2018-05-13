@@ -10,6 +10,7 @@ Change list:
 * Added 404 page.
 * TODO Add dynamic copyright year footer.
 * TODO? Remove webfonts.
+* TODO Add taxonomy pages
 
 Original readme below:
 
