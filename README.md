@@ -7,6 +7,7 @@ Change list:
 * Minor bug fixes.
 * Replaced highlight.js (run-time syntax highlighting) with [default Hugo highlighter 'Chroma'](https://gohugo.io/content-management/syntax-highlighting/) (generation-time).  
   One less resource to download, less JS to run. Google PageSpeed found highlight.js hindered page speed.
+* Added 404 page.
 * TODO Add dynamic copyright year footer.
 * TODO? Remove webfonts.
 
