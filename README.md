@@ -5,9 +5,9 @@ Minor fork of [hugo-theme-one](https://github.com/resugary/hugo-theme-one) for p
 
 Change list:
 * Minor bug fixes.
-* TODO Replace highlight.js (run-time syntax highlighting) with [default hugo highlighter](https://gohugo.io/content-management/syntax-highlighting/) (generation-time).  
-  Google PageSpeed found highlight.js hindered page speed.
-* TODO Add dynamic copyright footer.
+* Replaced highlight.js (run-time syntax highlighting) with [default Hugo highlighter 'Chroma'](https://gohugo.io/content-management/syntax-highlighting/) (generation-time).  
+  One less resource to download, less JS to run. Google PageSpeed found highlight.js hindered page speed.
+* TODO Add dynamic copyright year footer.
 * TODO? Remove webfonts.
 
 Original readme below:
@@ -25,7 +25,7 @@ It provides some new features and simplifications from original onetwothree. I t
 Features:  
 - Add archives support for all posts in a single page  
 - Homepage displayed with 7 latest posts default  
-- Sytax highlighting support with `highlight.js`  
+- Sytax highlighting support with ~~`highlight.js`~~ Go's [Chroma](https://github.com/alecthomas/chroma) (see fork details at top of readme)
 - Google Analytics support  
 - Full-text RSS support
 
