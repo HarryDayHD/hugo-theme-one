@@ -4,7 +4,7 @@ Fork
 Minor fork of [hugo-theme-one](https://github.com/resugary/hugo-theme-one) for personal use.
 
 Change list:
-* TODO Minor bug fixes.
+* Minor bug fixes.
 * TODO Replace highlight.js (run-time syntax highlighting) with [default hugo highlighter](https://gohugo.io/content-management/syntax-highlighting/) (generation-time).  
   Google PageSpeed found highlight.js hindered page speed.
 * TODO Add dynamic copyright footer.
