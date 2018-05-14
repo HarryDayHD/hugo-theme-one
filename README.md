@@ -4,13 +4,23 @@ Fork
 Minor fork of [hugo-theme-one](https://github.com/resugary/hugo-theme-one) for personal use.
 
 Change list:
-* Minor bug fixes.
-* Replaced highlight.js (run-time syntax highlighting) with [default Hugo highlighter 'Chroma'](https://gohugo.io/content-management/syntax-highlighting/) (generation-time).  
+* Increased spacing and added bar between navigation links for clarity
+* Replaced highlight.js (run-time syntax highlighting) with [default Hugo highlighter 'Chroma'](https://gohugo.io/content-management/syntax-highlighting/) (compile-time).  
   One less resource to download, less JS to run. Google PageSpeed found highlight.js hindered page speed.
 * Added 404 page.
-* TODO Add dynamic copyright year footer.
-* TODO? Remove webfonts.
-* TODO Add taxonomy pages
+* Added dynamic copyright year footer.
+* Un-hidden post date at bottom of single posts
+
+Problems left:
+* No taxonomy (tags/categories) pages, despite styling in place to include them.
+* Not very clear that the site-name link is the posts page.
+* On small devices, with many header links, there is collision.
+* No site map.
+* The menu bar parameters are not passed in correctly.
+* The whole single/list structure seems incorrect. May be wrong about this
+* Remove webfonts?
+* Perform all recommended Google PageSpeed optimisations
+* Better support for social links?
 
 Original readme below:
 
@@ -27,7 +37,7 @@ It provides some new features and simplifications from original onetwothree. I t
 Features:  
 - Add archives support for all posts in a single page  
 - Homepage displayed with 7 latest posts default  
-- Sytax highlighting support with ~~`highlight.js`~~ Go's [Chroma](https://github.com/alecthomas/chroma) (see fork details at top of readme)
+- Sytax highlighting support with ~~`highlight.js`~~ GO's [Chroma](https://github.com/alecthomas/chroma) (see fork details at top of readme)
 - Google Analytics support  
 - Full-text RSS support
 
